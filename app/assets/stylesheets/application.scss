@@ -68,12 +68,21 @@ header{
   .header-right{
     float:right;
     line-height: 60px;
-  }
-  .header-right a{
-    margin-left: 30px;
-  }
-  .header-right a:hover{
-    border-bottom: 1px solid #000000;
+    color:white;
+    #login-show {
+      margin-left: 30px;
+      display: inline-block;
+      cursor: pointer;
+      &:hover {
+        border-bottom: 1px solid #000000;
+      }
+    }
+    a {
+      margin-left: 30px;
+      &:hover {
+        border-bottom: 1px solid #000000;
+      }
+    }
   }
 }
 

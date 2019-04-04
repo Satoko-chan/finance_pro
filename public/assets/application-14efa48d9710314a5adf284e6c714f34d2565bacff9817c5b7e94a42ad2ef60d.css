@@ -1,0 +1,402 @@
+/* line 6, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .top-wrapper {
+  padding: 130px 0 80px 0;
+  color: white;
+  height: 530px;
+  width: 100%;
+  background-image: url("/site_image/top-background5.png");
+  background-size: cover;
+  text-align: center;
+}
+/* line 14, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .top-wrapper h1 {
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+/* line 18, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .top-wrapper .top-start {
+  margin: 20px;
+  color: white;
+  padding: 15px 50px;
+  display: inline-block;
+  background-color: #99A3AE;
+  opacity: 0.9;
+  border-radius: 8px;
+  box-shadow: 0px 5px #64707d;
+}
+/* line 27, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .top-wrapper .top-start:hover {
+  opacity: 1;
+}
+/* line 30, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .top-wrapper .top-start:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+/* line 38, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .top-comment {
+  text-align: center;
+  padding: 0.5px 0 0.5px 0;
+  width: 100%;
+  background: #952662;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+/* line 45, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .top-comment p {
+  line-height: 20px;
+  color: white;
+}
+/* line 49, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .top-comment .comment-space {
+  margin-right: 35px;
+}
+/* line 54, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .lesson-wrapper {
+  text-align: center;
+  padding: 50px 0 35px 0;
+  background-color: #f7f7f7;
+}
+/* line 58, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .lesson-wrapper .lesson {
+  float: left;
+  width: 33%;
+}
+/* line 62, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .lesson-wrapper .lesson-icon {
+  position: relative;
+  opacity: 0.7;
+}
+/* line 65, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .lesson-wrapper .lesson-icon h4 {
+  position: absolute;
+  font-size: 25px;
+  top: 10%;
+  width: 100%;
+}
+/* line 71, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .lesson-wrapper .lesson-icon p {
+  padding: 0 40px;
+  position: absolute;
+  top: 40%;
+}
+/* line 77, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .lesson-wrapper .lesson-img {
+  width: 90%;
+}
+/* line 81, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .message-wrapper {
+  text-align: center;
+  padding-top: 50px;
+}
+/* line 85, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .message-title h3 {
+  line-height: 4px;
+  opacity: 0.8;
+}
+/* line 89, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .message-start {
+  margin: 20px 0 50px 0;
+  color: white;
+  padding: 17px 60px;
+  display: inline-block;
+  background-color: #B66533;
+  opacity: 0.9;
+  border-radius: 8px;
+  box-shadow: 0px 5px #8e4f28;
+}
+/* line 98, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .message-start:hover {
+  opacity: 1;
+}
+/* line 101, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+.top_page_content .message-start:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+@media all and (max-width: 1000px) {
+  /* line 113, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+  .top_page_content .top-wrapper {
+    padding-top: 150px;
+  }
+  /* line 115, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+  .top_page_content .top-wrapper h1 {
+    font-size: 23px;
+  }
+  /* line 118, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+  .top_page_content .top-wrapper p {
+    font-size: 14px;
+  }
+  /* line 122, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+  .top_page_content .lesson-wrapper {
+    padding: 30px 0 15px 0;
+  }
+  /* line 124, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+  .top_page_content .lesson-wrapper .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  /* line 128, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+  .top_page_content .lesson-wrapper .lesson-img {
+    width: 70%;
+  }
+}
+@media all and (max-width: 670px) {
+  /* line 138, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+  .top_page_content .top-wrapper {
+    text-align: left;
+  }
+  /* line 140, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+  .top_page_content .top-wrapper h1 {
+    font-size: 25px;
+  }
+  /* line 143, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+  .top_page_content .top-wrapper p {
+    font-size: 13px;
+  }
+  /* line 146, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+  .top_page_content .top-wrapper .top-comment {
+    font-size: 13px;
+  }
+  /* line 151, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+  .top_page_content .lesson-wrapper .lesson {
+    width: 100%;
+  }
+  /* line 155, /home/vagrant/finance_pro/app/assets/stylesheets/home.scss */
+  .top_page_content .btn {
+    text-align: center;
+    width: 90%;
+  }
+}
+@charset "UTF-8";
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+/* line 18, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 22, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+body {
+  margin: 0;
+  font-family: Helvetica;
+}
+
+/* line 27, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 31, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+.clear {
+  clear: left;
+}
+
+/* line 35, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+.container {
+  width: 100%;
+  padding: 0 8%;
+  margin: 0 auto;
+}
+
+/* line 43, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+header {
+  background-color: #6D7278;
+  opacity: 0.9;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+/* line 52, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+header a {
+  color: white;
+}
+/* line 55, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+header .menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+/* line 62, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+header .head-logo img {
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: block;
+  width: 180px;
+}
+/* line 69, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+header .header-right {
+  float: right;
+  line-height: 60px;
+}
+/* line 73, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+header .header-right a {
+  margin-left: 30px;
+}
+/* line 76, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+header .header-right a:hover {
+  border-bottom: 1px solid #000000;
+}
+
+/* line 83, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+footer {
+  background-color: #6D7278;
+  height: 65px;
+  width: 100%;
+}
+/* line 88, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+footer .footer-right {
+  float: right;
+  width: 180px;
+  display: block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+/* line 95, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+footer .footer-left {
+  margin-left: 20px;
+}
+/* line 98, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+footer .footer-left a {
+  color: white;
+  float: left;
+  margin-right: 60px;
+  line-height: 65px;
+  padding: 0 7px;
+  transition: 0.5s;
+}
+/* line 105, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+footer .footer-left a:hover {
+  background-color: #868b92;
+}
+
+/*モーダル*/
+/* line 115, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+.login-modal-wrapper, .signup-modal-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+/* line 126, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+/* line 138, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+/* line 146, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+#signup-form, #login-form {
+  width: 100%;
+}
+
+/* line 150, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+#signup-form h2, #login-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+/* line 156, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+#signup-form input, #login-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+/* line 165, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #5dca88;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+/*モーダル終わり*/
+@media all and (max-width: 1000px) {
+  /* line 183, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+  header .head-logo img {
+    display: block;
+    width: 140px;
+  }
+  /* line 188, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+  header .header-right {
+    font-size: 13px;
+  }
+  /* line 190, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+  header .header-right a {
+    margin-right: 3px;
+  }
+  /* line 194, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+  header .footer-left {
+    font-size: 13px;
+  }
+}
+@media all and (max-width: 670px) {
+  /* line 203, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+  .menu-icon {
+    display: block;
+  }
+
+  /* line 207, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+  header a {
+    display: none;
+  }
+
+  /* line 211, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+  .footer-left {
+    font-size: 10px;
+  }
+
+  /* line 215, /home/vagrant/finance_pro/app/assets/stylesheets/application.scss */
+  .footer-right {
+    width: 150px;
+  }
+}

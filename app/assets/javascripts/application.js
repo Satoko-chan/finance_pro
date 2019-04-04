@@ -15,10 +15,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-$(function(){
 
+$(document).on('turbolinks:load', function(){
 
-  
 
   $('#login-show').click(function() {
     $('#login-modal').fadeIn();
@@ -41,4 +40,4 @@ $(function(){
       $(this).find('.text-contents').removeClass('text-active');
     });
 
- });
+});
