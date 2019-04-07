@@ -1,0 +1,173 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.top_page_content {
+  .top-wrapper{
+    padding:130px 0 80px 0;
+    color:white;
+    height:530px;
+    width:100%;
+    background-image: url("/site_image/top-background5.png");
+    background-size: cover;
+    text-align:center;
+    h1{
+      font-size:35px;
+      letter-spacing: 2px;
+    }
+    .top-start{
+      margin:20px;
+      color:white;
+      padding:15px 50px;
+      display:inline-block;
+      background-color:#99A3AE ;
+      opacity:0.9;
+      border-radius:8px;
+      box-shadow: 0px 5px #6D7278 ;
+      &:hover{
+        opacity:1;
+      }
+      &:active{
+        position: relative;
+        top:5px;
+        box-shadow:none;
+      }
+    }
+  }
+
+  .top-comment{
+    text-align: center;
+    padding:0.5px 0 0.5px 0;
+    width:100%;
+    background: #952662;
+    opacity:0.8;
+    letter-spacing: 1px;
+    p{
+      line-height: 20px;
+      color:white;
+    }
+    .comment-space{
+      margin-right:35px;
+    }
+  }
+
+  .lesson-wrapper{
+    text-align:center;
+    padding: 50px 0 35px 0;
+    background-color:#f7f7f7;
+    .lesson{
+      float:left;
+      width:33%;
+    }
+    .lesson-icon{
+      position:relative;
+      opacity:0.7;
+      h4{
+        position:absolute;
+        font-size: 25px;
+        top: 10%;
+        width: 100%;
+      }
+      p{
+        padding:0 40px;
+        position:absolute;
+        top: 40%;
+      }
+    }
+    .lesson-img{
+      width:90%;
+    }
+  }
+  .message-wrapper{
+    text-align: center;
+    padding-top:50px;
+  }
+  .message-title h3{
+    line-height: 4px;
+    opacity:0.8;
+  }
+  .message-start{
+    margin:20px 0 50px 0;
+    color:white;
+    padding:17px 60px;
+    display:inline-block;
+    background-color: #B66533;
+    opacity:0.9;
+    border-radius:8px;
+    box-shadow: 0px 5px #843601;
+    &:hover{
+      opacity:1;
+    }
+    &:active{
+      position: relative;
+      top:5px;
+      box-shadow:none;
+    }
+  }
+}
+
+
+
+// タブレット画面
+
+@media all and (max-width:1000px){
+
+  .top-wrapper{
+    padding-top:150px;
+
+  }
+
+  .top-wrapper h1 {
+    font-size: 25px;
+  }
+
+.top-wrapper p{
+   font-size: 14px;
+}
+
+.lesson-wrapper{
+  padding: 30px 0 15px 0;
+}
+
+.lesson-img{
+  width:70%;
+}
+
+.lesson{
+    width:50%;
+    margin-bottom: 50px;
+  }
+
+}
+
+
+//スマホ画面
+
+@media all and (max-width:670px){
+
+  .top-wrapper{
+    text-align: left;
+  }
+
+  .top-comment{
+    font-size:13px;
+  }
+
+  .lesson {
+    width: 100%;
+  }
+
+  .btn {
+    text-align: center;
+    width: 90%;
+  }
+
+  .top-wrapper h1 {
+    font-size: 25px;
+  }
+
+  .top-wrapper p {
+    font-size: 13px;
+  }
+
+}

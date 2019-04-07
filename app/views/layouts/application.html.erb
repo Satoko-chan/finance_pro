@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FinancePro</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+
+        <div class="head-logo">
+          <img  src="/site_image/logo2.png">
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <a class="about" href="#">ABOUT</a>
+          <a class="detail" href="#">学習イメージ・料金</a>
+          <a class="login" href="#">ログイン</a>
+          <a class-"new" href="#">新規登録</a>
+        </div>
+      </div>
+    </header>
+    <%= yield %>
+    <footer>
+      <div class="container">
+
+          <img class="footer-right" src="/site_image/logo2.png" >
+        <div class="footer-left">
+          <a href="#">企業情報</a>
+          <a href="#">問い合わせ</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

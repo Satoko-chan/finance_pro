@@ -1,0 +1,146 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ * {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  width: 100%;
+  padding: 0 8%;
+  margin: 0 auto;
+}
+
+//ヘッダーに関して
+
+header{
+  background-color:#6D7278;
+  opacity:0.9;
+  height:60px;
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index:10;
+
+  a {
+    color:white;
+  }
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+  }
+  .head-logo img{
+    float:left;
+    padding-top:10px;
+    padding-left:10px;
+    display:block;
+    width:180px;
+  }
+  .header-right{
+    float:right;
+    line-height: 60px;
+  }
+  .header-right a{
+    margin-left: 30px;
+  }
+  .header-right a:hover{
+    border-bottom: 1px solid #000000;
+  }
+}
+
+
+//フッターに関して
+footer{
+  background-color:#6D7278;
+  height:65px;
+  width:100%;
+
+  .footer-right{
+    float:right;
+    width:180px;
+    display:block;
+    margin-right:10px;
+    margin-top:10px;
+  }
+  .footer-left{
+    margin-left:20px;
+  }
+  .footer-left a{
+    color:white;
+    float:left;
+    margin-right: 60px;
+    line-height: 65px;
+  }
+}
+
+
+// タブレット画面
+
+@media all and (max-width:1000px){
+
+  .head-logo{
+    width:200px;
+  }
+
+  .header-right{
+    font-size: 13px;
+  }
+
+  .header-right a{
+    margin-right: 3px;
+  }
+
+  .footer-left{
+    font-size: 13px;
+  }
+
+}
+
+//スマホ画面
+
+@media all and (max-width:670px){
+  .menu-icon{
+    display:block;
+  }
+
+  header a{
+    display:none;
+  }
+
+  .footer-left{
+    font-size:10px;
+  }
+
+  .footer-right{
+    width:150px;
+  }
+}
