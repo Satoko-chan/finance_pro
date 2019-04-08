@@ -99,30 +99,35 @@ footer{
     float:left;
     margin-right: 60px;
     line-height: 65px;
+    padding:0 7px;
+    transition: 0.5s;
+    &:hover{
+      background-color: lighten(#6D7278,10%);
+    }
   }
+
 }
 
 
 // タブレット画面
 
 @media all and (max-width:1000px){
+  header{
+    .head-logo img{
+      display:block;
+      width:140px;
+    }
 
-  .head-logo{
-    width:200px;
+    .header-right{
+      font-size: 13px;
+      a{
+        margin-right: 3px;
+      }
+    }
+    .footer-left{
+      font-size: 13px;
+    }
   }
-
-  .header-right{
-    font-size: 13px;
-  }
-
-  .header-right a{
-    margin-right: 3px;
-  }
-
-  .footer-left{
-    font-size: 13px;
-  }
-
 }
 
 //スマホ画面
