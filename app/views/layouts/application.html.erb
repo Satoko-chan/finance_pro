@@ -6,7 +6,10 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 
   </head>
 
@@ -21,11 +24,33 @@
         <div class="header-right">
           <a class="about" href="#">ABOUT</a>
           <a class="detail" href="#">学習イメージ・料金</a>
-          <a class="login" href="#">ログイン</a>
+          <a id="login-show"  class="login" href="#">ログイン</a>
           <a class-"new" href="#">新規登録</a>
+
         </div>
       </div>
+
     </header>
+
+
+
+    <div class="login-modal-wrapper" id="login-modal">
+      <div class="modal">
+        <div class="close-modal">
+          <i class="fa fa-2x fa-times"></i>
+        </div>
+        <div id="login-form">
+          <h2>Emailログイン</h2>
+          <form action="#">
+            <input class="form-control" type="text" placeholder="メールアドレス">
+            <input class="form-control" type="password" placeholder="パスワード">
+            <div id="submit-btn">ログイン</div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
     <%= yield %>
     <footer>
       <div class="container">
@@ -37,5 +62,7 @@
         </div>
       </div>
     </footer>
+    <script src="application.js"></script>
+
   </body>
 </html>
