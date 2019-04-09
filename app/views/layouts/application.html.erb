@@ -14,52 +14,40 @@
 
   <body>
     <header>
-
       <div class="container">
+
         <div class="head-logo">
-          <a href="#"><img  src="/site_image/logo2.png"></a>
+          <%=link_to("/")do%>
+          <img src="/site_image/logo2.png">
+          <%end%>
         </div>
         <span class="fa fa-bars menu-icon"></span>
         <div class="header-right">
-          <a class="about" href="#">ABOUT</a>
-          <a class="detail" href="#">学習イメージ・料金</a>
-          <div class="login" id="login-show">
-            ログイン
-          </div>
-          <a class-"new" href="#">新規登録</a>
+          <%=link_to("ABOUT","#")%>
+          <%=link_to("学習イメージ・料金","#")%>
+          <%=link_to("ログイン","/login")%>
+          <%=link_to("新規登録","/signup")%>
+         </div>
 
-        </div>
+
       </div>
-
     </header>
 
 
 
-    <div class="login-modal-wrapper" id="login-modal">
-      <div class="modal">
-        <div class="close-modal">
-          <i class="fa fa-2x fa-times"></i>
-        </div>
-        <div id="login-form">
-          <h2>Emailログイン</h2>
-          <form action="#">
-            <input class="form-control" type="text" placeholder="メールアドレス">
-            <input class="form-control" type="password" placeholder="パスワード">
-            <div id="submit-btn">ログイン</div>
-          </form>
-        </div>
-      </div>
-    </div>
+
 
 
     <%= yield %>
     <footer>
       <div class="container">
+        <%=link_to("/")do%>
+          <img class="footer-right" src="/site_image/logo2.png">
+        <%end%>
 
-          <a href="#"><img class="footer-right" src="/site_image/logo2.png" ></a>
         <div class="footer-left">
-          <a href="#">企業情報</a>
-          <a href="#">問い合わせ</a>
+          <%=link_to("企業情報","#")%>
+          <%=link_to("問い合わせ","#")%>
         </div>
       </div>
     </footer>

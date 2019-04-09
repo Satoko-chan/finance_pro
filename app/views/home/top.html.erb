@@ -7,7 +7,10 @@
         <h1>オンライン学習で財務プロフェッショナルを目指しませんか?</h1>
         <p>ファイナンシャルProは、実践的な財務シミュレーションや企業価値評価を学ぶためのオンライン学習サービスです。</p>
         <p>最先端の教育を受けた講師による動画解説で、財務モデリング、DCFValuationからエクセル講座まで、幅広い分野を実践的に学ぶことができます。</p>
-        <a class="btn top-start" href="#">新規登録をして始める</a>
+
+        <%=link_to("/signup")do%>
+        <input class="btn top-start" type="submit" value="新規登録をして始める">
+        <%end%>
       </div>
 
   </div>
@@ -18,6 +21,42 @@
         <p>✔︎ 定期的なチェックテストとエクセルモデルの作成で、確実に力がつく</p>
       </div>
    </div>
+
+   <div class="about-wrapper">
+       <div class="about-top">
+         <h4>ファイナンスProだからできること</h4>
+       </div>
+       <div class="abouts">
+         <div class="about background">
+           <div class="content">
+             <img src="/site_image/about-1.png">
+           </div>
+           <div class="text">
+            <h4>いつでもどこでも学習できる</h4>
+            <p>移動時間やテキストの準備がいらないから、あなたのスケジュールを邪魔することはありません。オンラインだから、いつでもどこでもあなたの好きな時に効率的に学ぶことができます。</p>
+           </div>
+         </div>
+         <div class="about">
+           <div class="content">
+             <img src="/site_image/about-2.png">
+           </div>
+           <div class="text">
+             <h4>即戦力になるスキルを身につけられる</h4>
+             <p>財務のプロによって考えられた効率的・実践的な学習構成で、あなたの財務プロフェッショナルへの道をサポートします。</p>
+           </div>
+         </div>
+         <div class="about background">
+           <div class="content">
+             <img src="/site_image/about-3.png">
+           </div>
+           <div class="text">
+             <h4>オンライン＋リアルタイム講義で疑問を解消</h4>
+             <p>定期的に財務プロフェッショナルによるリアルタイム講習を開催。その場で疑問を解消することができます。</p>
+           </div>
+         </div>
+       </div>
+   </div>
+
    <div class="lesson-wrapper">
       <div class="container">
         <h3>学べる分野</h3>
@@ -67,7 +106,9 @@
           <h3>さぁ、さっそく始めよう。</h3>
           <h3>あなたも財務プロフェッショナルの即戦力に。</h3>
         </div>
-        <a class="btn message-start" href="#">新規登録</a>
+        <%=link_to("/signup")do%>
+        <input class="btn message-start" type="submit" value="新規登録">
+        <%end%>
       </div>
     </div>
 
